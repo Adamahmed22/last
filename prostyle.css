@@ -1,0 +1,382 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ body {
+    height: 700px;
+    background-image: url(images/blue_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-color: #f8f6f6;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.nav1 {
+    display: flex;
+    align-items: center;
+    
+}
+.nav1 div {
+    margin: 20px;
+    color: #606770;
+    cursor: pointer;
+}
+.active {
+    border-bottom: 2px solid #8e0ac2;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+}
+.nav2 img {
+    position: relative;
+    width: 80px;
+    margin-right: 60px;
+}
+.nav2 h2 {
+    position:absolute;
+    margin-top: -25px;
+    margin-left:20px;
+    color: #606770;
+    font-size: 15px;
+    
+
+}
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.div1 {
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 150px;
+
+}
+.div1 h1 {
+    margin-bottom: 10px;
+    color: #666b70;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+span {
+    color: #7916a0 ;
+}
+.div1 p {
+    color: #606770;
+}
+.div2 img {
+    width: 500px;
+    margin-right: 20px;
+    margin-top: -90px;
+    position: relative;
+}
+.div2 .img2 {
+   width: 200px;
+   position: absolute;
+   left: 840px;
+   bottom: 255px;
+}
+.div2 .img3 {
+    position: absolute;
+    width: 200px;
+    left: 840px;
+   top: 370px;
+   opacity: 0.5;
+}
+.div2 .img33 {
+    position: absolute;
+    width: 200px;
+    left: 810px;
+    top: 445px;
+   opacity: 0.5;
+}
+.div2 .img333 {
+    position: absolute;
+    width: 200px;
+    left: 900px;
+   top: 400px;
+   opacity: 0.5;
+}
+.div2 .img4 {
+    width:1000px;
+    position: absolute;
+    left: -50px;
+    top: 650px;
+   
+}
+.second-1 {
+    position: relative;
+    top: -530px;
+    left: 250px;
+}
+
+
+.section-22 {
+   margin-top: -460px;
+   background-color: #f8f6f6;
+}
+.G140 {
+    width:290px;
+    position: relative;
+    top: 220px;
+    left: 125px;
+}
+.G140 img {
+    width: 130px;
+    position: relative;
+    left: 55px;
+}
+.G140 h3 {
+    padding-top: 7px;
+    color: #606770;
+    position: relative;
+    left: 33px;
+}
+.G140 p{
+    padding-top: 7px;
+    color: #606770;
+
+}
+.G152 {
+    width: 220px;
+    position: relative;
+    top: 255px;
+    left: 485px;
+}
+.G152  img {
+    width: 130px;
+    position: relative;
+    left: 35px;
+}
+.G152 h3 {
+    color: #606770;
+    width: 200px;
+    position: relative;
+    left: 20px;
+}
+
+.G152 p {
+    padding-top: 7px;
+    color: #606770;
+    width: 400px;
+    right: 48px;
+    position: relative;
+
+}
+.G1020 {
+    position: relative;
+    left: 840px;
+    top: 220px;
+}
+.G1020 img {
+    width: 130px;
+    position: relative;
+    left: 95px;
+}
+.G1020 h3 {
+    position: relative;
+    color: #606770;
+    padding-top: 7px;
+    left: 117px;
+}
+.G1020 p {
+    padding-top: 5px;
+    color: #606770;
+}
+.kud {
+   position: relative;
+   top: 40px;
+  left: 20px;
+}
+.kud img {
+    width: 300px;
+}
+.kud h3  {
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    top: 130px;
+    font-size: 25px;
+    color: white;
+    left: 87px;
+    
+}
+.arrows {
+    position: relative;
+   left: 440px;
+ bottom: -310px;
+}
+.arrows .right {
+    rotate: 900deg;
+    position: relative;
+    left: 345px;
+}
+.kud p {
+    position: absolute;
+    top: 100px;
+    color: white;
+    left: 87px;
+    margin-top: 10px;
+}
+.G1006 img {
+    width: 120px;
+    position: relative;
+    left: 280px;
+    top: 180px;
+}
+.G1007 img {
+    
+    width: 185px;
+    position: relative;
+    left: 525px;
+}
+.G1007 h3 {
+    left: 509px;
+    position: relative;
+    color: #606770;
+    top: -1px;
+}
+.G1007 p {
+    position: relative;
+    left: 527px;
+    width: 230px;
+    color: #606770;
+    margin-top: 15px;
+}
+.G1008 img {
+    width: 135px;
+    position: relative;
+    left: 820px;
+    bottom: 208px;
+}
+.a1 {
+    position: relative;
+    left: 37px;
+    color: #606770;
+}
+.b1 {
+    position: relative;
+    left: -10px;
+    color: #606770;
+
+}
+.span1 {
+    color: #606770;
+    margin-top: 20px;
+    position: relative;
+    left: -10px;
+}
+
+.back img
+ {
+    
+    width: 1260px;
+    position: relative;
+    top: 5px;
+    right: 0px;
+    bottom: 0;
+    margin-top: -90px;
+    
+ }
+.abs {
+    
+    position: relative;
+    bottom: 390px;
+    left: 630px;
+}
+.icons {
+    position: absolute;
+    margin-top: -490px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    cursor: pointer;
+    
+}
+.down  {
+    position: relative;
+    bottom: 425px;
+    display: flex;
+    color: white;
+    width: 30%;
+    cursor: pointer;
+    font-weight: 700;
+   
+    margin-left: 35px;
+    justify-content: space-around;
+   
+    
+}
+.icons  .fa-instagram {
+    font-size: 100px;
+}
+.btn1 {
+    position: absolute;
+    margin-top: -580px;
+    margin-left: 50px;
+}
+.btn1 .btn2 {
+    border-radius: 5px;
+    border: white;
+    color: white;
+    padding: 0px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.apple {
+    width: 25px;
+    position: relative;
+    right: 73px;
+    top: -4px;
+}
+.app {
+    position: relative;
+    left: 24px;
+    color: black;
+    top: -7px;
+    font-weight: bold;
+
+}
+.p1 {
+    color: #606770;
+    position: relative;
+    top: 10px;
+    font-size: 10px;
+
+}
+.btn1 .btn3 {
+    position: relative;
+    left: 7px;
+    border-radius: 5px;
+    border: white;
+    color: white;
+    padding: 0px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.now {
+    height: 200px;
+}
+.cust {
+    position: relative;
+    color: #606770;
+    left: 30px;
+}
